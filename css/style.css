@@ -222,6 +222,7 @@ body {
   height: 360px;
   margin: 0 auto;
   background: url(../image/join.png);
+  margin-bottom: 50px;
   /* outline: 1px solid red; */
 }
 #join-banner > div {
@@ -252,6 +253,7 @@ body {
   margin: 0 auto;
   /* outline: 1px solid red; */
   overflow: hidden;
+  margin-bottom: 50px;
 }
 #news div {
   float: left;
