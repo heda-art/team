@@ -1,0 +1,84 @@
+
+/* banner */
+#visual {
+  max-width: 1920px;
+  min-width: 1200px;
+  height: 330px;
+  background: url(../image/route.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  /* outline: 1px solid red; */
+}
+
+#visual h1{
+  height: 500px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 330px;
+}
+
+#sub-gnb {
+  width: 1200px;
+  /* height: 60px; */
+  margin: 0 auto;
+  overflow: hidden;
+  /* outline: 1px solid red; */
+}
+#sub-gnb ul {
+  height: 60px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  /* outline: 1px solid red; */
+}
+#sub-gnb li {
+  float: left;
+  /* outline: 1px solid red; */
+}
+#sub-gnb li a {
+  display: block;
+  width: 400px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+#sub-gnb li .active {
+  background:#203053;
+  color: #fff;
+}
+
+#sub-gnb > .location {
+  height: 18px;
+  float: right;
+  font-size: 12px;
+  /* outline: 1px solid red; */
+  margin-bottom: 56px;
+}
+
+#map {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  /* outline: 1px solid red; */
+  margin-bottom: 44px;
+}
+#map img {
+  /* outline: 1px solid red; */
+  margin-bottom: 50px;
+}
+
+#map h1 {
+  font-size: 30px;
+  font-weight: bold;
+  /* outline: 1px solid red; */
+  margin-bottom: 50px;
+}
+#map p {
+  font-weight: bold;
+  padding-bottom: 15px;
+}
