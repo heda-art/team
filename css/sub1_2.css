@@ -7,6 +7,8 @@
   background: url(../image/route.png);
   background-repeat: no-repeat;
   margin: 0 auto;
+  background-position: center;
+
   /* outline: 1px solid red; */
 }
 
