@@ -3,6 +3,8 @@
 #visual {
     background-image: url(../image/sub_banner1.jpg);
     height: 500px;
+    background-position: center;
+
 }
 #visual p {
     font-size: 35px;
