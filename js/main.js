@@ -26,6 +26,22 @@ $(document).ready(function(){
       auto: true
     });
   });
+});
+
+$(function () {
+  var left = 0;
+  var duration = 4000;
+
+  // 이미지 전환
+  setInterval(function () {
+    if(left <= -2396) {
+      left = 0;
+    }
+    else {
+      left = left - 1198;
+    }
+    $('#pick > ul > li').css('left', left);
+  }, duration);
 
   
   $('#pick > .pager > a').eq(0).click(function () {
@@ -42,5 +58,7 @@ $(document).ready(function(){
     $('#pick > ul > li').css('left', -2396);
     $('#pick > .pager > a').removeClass('active');
     $('#pick > .pager > a').eq(2).addClass('active');
-  })  
-});
+  })
+})
+
+
