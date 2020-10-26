@@ -27,4 +27,20 @@ $(document).ready(function(){
     });
   });
 
+  
+  $('#pick > .pager > a').eq(0).click(function () {
+    $('#pick > ul > li').css('left', 0);
+    $('#pick > .pager > a').removeClass('active');
+    $('#pick > .pager > a').eq(0).addClass('active');
+  })
+  $('#pick > .pager > a').eq(1).click(function () {
+    $('#pick > ul > li').css('left', -1198);
+    $('#pick > .pager > a').removeClass('active');
+    $('#pick > .pager > a').eq(1).addClass('active');
+  })
+  $('#pick > .pager > a').eq(2).click(function () {
+    $('#pick > ul > li').css('left', -2396);
+    $('#pick > .pager > a').removeClass('active');
+    $('#pick > .pager > a').eq(2).addClass('active');
+  })  
 });
